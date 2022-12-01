@@ -5,9 +5,9 @@ import ProfilePhoto from "./assets/ProfilePhoto.png";
 import { ScrollDownIcon } from "../components/AnimatedIcons";
 
 const content = {
-  name: "Marcin@Taipei.dev",
+  name: "Curtis",
   profilePhoto: ProfilePhoto,
-  title: "Full Stack Developer",
+  title: "Sunset and Pretty Scenery Chaser",
   cta: {
     label: "Follow me on Twitch!",
     url: "https://www.twitch.tv/taipei_dev",
@@ -16,7 +16,7 @@ const content = {
     github: "https://github.com/TaipeiDev/portfolio-t3",
     dribbble: null,
     twitter: "https://twitter.com/taipeidev",
-    email: "hi@taipei.dev",
+    email: "cstarkey5@gmail.com",
   },
   header: (
     <div>
@@ -26,12 +26,18 @@ const content = {
   description: (
     <div className="font-light">
       <span>{`I've`}</span> been <span className="font-semibold text-purple-500">coding</span>, <span className="font-semibold text-purple-500">designing</span>, and  <span className="font-semibold text-purple-500">building </span>products for{" "}
-      <span className="font-semibold">over a decade</span>. I enjoy
-      working in
-      <span className="px-1  font-semibold text-pink-500">
-        Typescript
+      <span className="font-semibold">over a decade</span>. <br /> I enjoy
+      taking pictures of
+      <span className="px-1  font-semibold text-orange-500">
+        sunsets,
       </span>
-      and contribute to open source software on Github.
+      <span className="px-1  font-semibold text-red-500">
+        pretty skies,
+      </span>
+      <span className="px-1  font-semibold text-green-500">
+      beautiful scenery, 
+      </span>
+      open landscapes, and cool colors/angles.
     </div>
   ),
 };
