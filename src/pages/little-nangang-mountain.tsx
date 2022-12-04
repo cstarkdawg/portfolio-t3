@@ -32,7 +32,7 @@ const Home: NextPage = () => {
         />
       </a>
       <main className="bg-white text-slate-700">
-      <img src = "./assets/projects/little-nangang-mountain.jpg" alt="Little Nangang Mountain">
+      <img src="./assets/projects/little-nangang-mountain.jpg" alt="Little Nangang Mountain"/>
       <br></br>
     <h1 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-4xl">Little Nangang Mountain (小南港山)</h1>
     <body>
