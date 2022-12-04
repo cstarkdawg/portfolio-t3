@@ -20,14 +20,12 @@ const content = {
   },
   header: (
     <div>
-      I write <span className="text-purple-600">awesome</span> code!
+      I take pictures!
     </div>
   ),
   description: (
     <div className="font-light">
-      <span>{`I've`}</span> been <span className="font-semibold text-purple-500">coding</span>, <span className="font-semibold text-purple-500">designing</span>, and  <span className="font-semibold text-purple-500">building </span>products for{" "}
-      <span className="font-semibold">over a decade</span>. <br /> I enjoy
-      taking pictures of
+      <span>{`I`}</span> {" "} enjoy taking pictures of
       <span className="px-1  font-semibold text-orange-500">
         sunsets,
       </span>
@@ -37,7 +35,12 @@ const content = {
       <span className="px-1  font-semibold text-green-500">
       beautiful scenery, 
       </span>
-      open landscapes, and cool colors/angles.
+      <span className="px-1  font-semibold text-yellow-500">
+      open landscapes,
+      </span>
+      <span className="px-1  font-semibold text-blue-500">
+      and cool colors/angles.
+      </span>
     </div>
   ),
 };
